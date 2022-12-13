@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+.latest_download_area{
+	padding: 120px 60px 60px 60px;
+	background-color: #83e685;
+	height: 200px;
+}
+
+.download_area{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
+
+.download_area>div{
+	margin: 50px;
+}
+
+.download_area_container>h1{
+	font-size: 32pt;
+}
+
+.past_download_area{
+	padding: 30px 60px;
+}
+
+.past_download_area>h1{
+	font-size: 24pt;
+}
+
+.system_requirements_area{
+	padding: 30px 60px;
+}
+
+.system_requirements_area>li{
+	margin: 10px;
+}

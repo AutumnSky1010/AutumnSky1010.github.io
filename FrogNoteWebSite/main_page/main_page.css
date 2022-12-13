@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+.summary_area {
+	padding: 120px 60px 60px 60px;
+	height: auto;
+	width: calc(100% - 120px);
+	background-color: #83e685;
+}
+
+.summary_text_area {
+	vertical-align: middle;
+}
+
+.summary_text_area>p {
+	margin: 20px;
+	font-size: 30px;
+	word-wrap: break-word;
+}
+
+.application_name {
+	font-size: 48pt;
+}
+
+.introduction_area {
+	margin: 30px;
+}
+
+.use_case_area>h2 {
+	font-size: 28pt;
+	text-align: center;
+	margin: 20px auto;
+}
+
+.use_case_area>div {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.use_case_area>div>div {
+	background-color: #3eb370;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 20px auto;
+	width: 150px;
+	height: 150px;
+}
+
+.use_case_area>div>div>h3 {
+	color: #f8fbf8;
+	text-align: center;
+	margin: 20px auto;
+}
+
+.image_textblock {
+	margin: 60px;
+	max-width: calc(100% - 100px);
+	display: flex;
+	justify-content:space-around;
+}
+
+.image_textblock>img{
+	max-width: 50%;
+}
+
+.image_textblock>div{
+	max-width: 50%;
+	margin: 20px;
+}
+
+.image_textblock>div>h1{
+	font-size: 32pt;
+}
+
+.image_textblock>div>p{
+	font-size: 16pt;
+}
+
+.image_textblock>div>*{
+	word-wrap: break-word;
+}
+
+.last_download_area{
+	padding: 120px 60px 60px 60px;
+	height: auto;
+	width: calc(100% - 120px);
+	background-color: #83e685;
+}
+.last_download_area>*{
+	text-align: center;
+}
+.last_download_area>div>button{
+	margin: 30px;
+}
+
+@media screen and (max-width: 1000px){
+	.image_textblock {
+		display: block;
+		margin: 60px;
+		max-width: calc(100% - 100px);
+	}
+	
+	.image_textblock>img{
+		max-width: 100%;
+	}
+
+	.image_textblock>div{
+		max-width: 100%;
+		margin: 20px;
+	}
+}

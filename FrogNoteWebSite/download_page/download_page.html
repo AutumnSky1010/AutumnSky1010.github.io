@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>FrogNoteダウンロード</title>
+	<link rel="stylesheet" type="text/css" href="../page_base.css">
+	<link rel="stylesheet" type="text/css" href="download_page.css">
+	<link rel="stylesheet" type="text/css" href="../top_menu.css">
+	<link rel="stylesheet" type="text/css" href="../buttons.css">
+	<script src="../alert.js"></script>
+</head>
+<body>
+	<header class="top_menu">
+		<a href="../main_page/main_page.html">
+			<img height="100%" alt="logo" src="../logo.png">
+		</a>
+		<button onclick="sendPreparation()">
+			<p>使い方</p>
+		</button>
+		<button onclick="location.href='../download_page/download_page.html'">
+			<p>ダウンロード</p>
+		</button>
+		<button onclick="sendPreparation()">
+			<p>不具合報告</p>
+		</button>
+	</header>
+	<div class="latest_download_area">
+		<h1>最新版ダウンロード</h1>
+		<div class="download_area">
+			<div>
+				<button class="basic_button" onclick="sendPreparation()">
+					<p>Windows</p>
+				</button>
+			</div>
+		</div>
+	</div>
+	<div class="system_requirements_area">
+		<h1>動作環境</h1>
+		<li>Windows10 および Windows11</li>
+		<li>.NET 6</li>
+		<li>Microsoft Edge WebView2 ランタイム<br>　 (Windows11には最初からインストールされています。)</li>
+	</div>
+	<div class="past_download_area">
+		<h1>過去バージョンダウンロード</h1>
+		<div class="download_area">
+			<p>過去バージョンはまだありません。</p>
+		</div>
+	</div>
+</body>
+</html>

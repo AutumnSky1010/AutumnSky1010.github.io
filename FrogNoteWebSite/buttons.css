@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.basic_button {
+	background-color:#3eb370; 
+	border-radius: 5px;
+	border-style: hidden;
+	width: 200px;
+	height: 70px;
+}
+
+.basic_button:hover {
+	cursor: pointer;
+	background-color:#4ec380;
+}
+
+.basic_button>p{
+	color: #f8fbf8;
+	font-size: 16pt;
+}
