@@ -1,0 +1,10 @@
+@charset "utf-8";
+:root {
+    --frognote-light-color: #83e685;
+    --frognote-mid-color: #3eb370;
+    --autumn-light-color: #ffa500;
+    --autumn-mid-color: #ff8c00;
+    --autumn-white: #f5f5f5;
+    --autumn-black: #202125;
+    --autumn-normal-shadow: 0px 1px 30px 3px rgba(0, 0, 0, .3);
+}

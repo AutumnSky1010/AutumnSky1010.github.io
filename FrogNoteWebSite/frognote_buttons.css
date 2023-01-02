@@ -1,0 +1,21 @@
+@charset "utf-8";
+@import url("../colors.css");
+/* CSS Document */
+
+.basic_button {
+	background-color: var(--frognote-mid-color); 
+	border-radius: 5px;
+	border-style: hidden;
+	width: 200px;
+	height: 70px;
+}
+
+.basic_button:hover {
+	cursor: pointer;
+	background-color:#4ec380;
+}
+
+.basic_button>p{
+	color: #f8fbf8;
+	font-size: 16pt;
+}

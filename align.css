@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.right-align-box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.left-align-box {
+    display: flex;
+    justify-content: flex-start;
+}
+
